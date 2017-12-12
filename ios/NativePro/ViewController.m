@@ -27,7 +27,7 @@
 
 - (IBAction)invokedRNView:(id)sender{
     ReactNativeViewController * controller = [[ReactNativeViewController alloc] init];
-    [self presentViewController:controller animated:YES completion:^{}];
+    [self.navigationController pushViewController:controller animated:YES];
     
 }
 
